@@ -2,3 +2,9 @@ node_modules
 dist
 .env
 .env.local
+
+# project-root artifacts (reference only, not part of the Vite app)
+Resume_Portfolio.html
+uploads/
+docs/
+.claude/
