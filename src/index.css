@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #ffffff;
+  --color-surface: #f7f8fa;
+  --color-surface2: #eef1f5;
+  --color-border: #e3e7ed;
+  --color-ink: #0b1220;
+  --color-ink2: #1f2937;
+  --color-muted: #5a6472;
+  --color-subtle: #8a93a1;
+  --color-accent: #1d4ed8;
+  --color-accent-soft: #dbe5ff;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --shadow-card: 0 1px 2px rgba(15,23,42,0.04), 0 1px 1px rgba(15,23,42,0.03);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: #ffffff;
+    color: #0b1220;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "ss01","cv11";
+  }
+  ::selection {
+    background: #1d4ed8;
+    color: #fff;
+  }
+}
+
+.num-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.link-underline:hover::after {
+  transform: scaleX(1);
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  box-shadow: 0 0 0 4px rgba(34,197,94,0.18);
+}
