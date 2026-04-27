@@ -1,11 +1,14 @@
-import { render, screen } from '@testing-library/react'
-import { describe, it, expect } from 'vitest'
+import { render, screen, cleanup } from '@testing-library/react'
+import { describe, it, expect, beforeEach } from 'vitest'
 import App from './App'
 
 describe('App', () => {
+  beforeEach(() => { cleanup() })
+
   it('renders without crashing and shows name', () => {
     render(<App />)
-    expect(screen.getAllByText('Rey Joel L. Matugas').length).toBeGreaterThan(0)
+    // name appears in TopBar + Hero profile card
+    expect(screen.getAllByText('Rey Joel L. Matugas')).toHaveLength(2)
   })
 
   it('renders all section landmarks', () => {
