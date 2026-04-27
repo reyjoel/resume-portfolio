@@ -1,6 +1,6 @@
 export const DATA = {
   name: "Rey Joel L. Matugas",
-  initials: "RM",
+  initials: "RJ",
   role: "Senior Full Stack Engineer",
   focus: "Backend Specialist",
   location: "Mandaue City, Cebu, Philippines",
@@ -8,8 +8,8 @@ export const DATA = {
   email: "reyjoelmatugas@gmail.com",
   github: "https://github.com/reyjoel",
   githubHandle: "reyjoel",
-  yearsExp: 8,
-  summary: "Senior Full Stack Engineer with 8+ years of experience designing, developing, and scaling high-performance web applications and APIs. Expert in PHP (Laravel), Node.js, and modern JavaScript frameworks including React.js and Next.js. Strong experience in system design, RESTful API architecture, microservices, database optimization, caching strategies, and scalable backend infrastructure.",
+  yearsExp: 9,
+  summary: "Senior Full Stack Engineer with 9+ years of experience designing, developing, and scaling high-performance web applications and APIs. Expert in PHP (Laravel), Node.js, and modern JavaScript frameworks including React.js and Next.js. Strong experience in system design, RESTful API architecture, microservices, database optimization, caching strategies, and scalable backend infrastructure.",
   longSummary: "Proven ability to improve application performance, optimize complex SQL queries, and build reliable systems that support high-traffic platforms. Experienced working in Agile teams and collaborating with product, design, and engineering leadership to deliver production-ready solutions.",
   skills: {
     "Backend":      ["PHP", "Laravel", "CodeIgniter", "Node.js", "Express.js", "NestJS"],
@@ -85,6 +85,7 @@ export const DATA = {
       stack: ["Web Apps", "Backend Tools"],
     },
   ],
+  projects_length: "10+",
   projects: [
     { name: "Leadstown",               url: "https://leadstown.com",                      tag: "Lead Generation" },
     { name: "Involved Leads",          url: "https://involvedleads.com",                  tag: "Marketing Site" },

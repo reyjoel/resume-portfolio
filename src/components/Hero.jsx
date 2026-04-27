@@ -61,7 +61,7 @@ export function Hero() {
             <div className="mt-4 grid grid-cols-3 gap-3">
               <Stat n={DATA.yearsExp + "+"} label="Years" />
               <Stat n={String(DATA.experience.length)} label="Companies" />
-              <Stat n={String(DATA.projects.length)} label="Projects" />
+              <Stat n={DATA.projects_length} label="Projects" />
             </div>
           </aside>
         </div>

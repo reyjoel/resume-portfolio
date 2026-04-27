@@ -8,7 +8,6 @@ export function Experience() {
         <SectionHeader
           eyebrow="02 / Experience"
           title="Selected professional experience"
-          blurb="Most recent first. Click company links for live work in the Projects section below."
         />
         <ol className="relative border-l border-border ml-2">
           {DATA.experience.map((job, i) => (
