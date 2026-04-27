@@ -60,8 +60,8 @@ export function Hero() {
             </div>
             <div className="mt-4 grid grid-cols-3 gap-3">
               <Stat n={DATA.yearsExp + "+"} label="Years" />
-              <Stat n="5" label="Companies" />
-              <Stat n="8" label="Projects" />
+              <Stat n={String(DATA.experience.length)} label="Companies" />
+              <Stat n={String(DATA.projects.length)} label="Projects" />
             </div>
           </aside>
         </div>
