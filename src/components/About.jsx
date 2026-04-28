@@ -9,7 +9,7 @@ export function About() {
         <SectionHeader
           eyebrow="01 / About"
           title="A pragmatic engineer focused on what ships."
-          blurb="Eight years across agencies and product teams, mostly backend, comfortable end-to-end."
+          blurb="Nine years across agencies and product teams, mostly backend, comfortable end-to-end."
         />
         <div className="grid grid-cols-12 gap-10">
           <div className="col-span-12 md:col-span-7 space-y-5 text-ink2 text-[15px] leading-relaxed">
