@@ -12,14 +12,15 @@ export const DATA = {
   summary: "Senior Full Stack Engineer with 9+ years of experience designing, developing, and scaling high-performance web applications and APIs. Expert in PHP (Laravel), Node.js, and modern JavaScript frameworks including React.js and Next.js. Strong experience in system design, RESTful API architecture, microservices, database optimization, caching strategies, and scalable backend infrastructure.",
   longSummary: "Proven ability to improve application performance, optimize complex SQL queries, and build reliable systems that support high-traffic platforms. Experienced working in Agile teams and collaborating with product, design, and engineering leadership to deliver production-ready solutions.",
   skills: {
-    "Backend":      ["PHP", "Laravel", "CodeIgniter", "Node.js", "Express.js", "NestJS"],
-    "Frontend":     ["React.js", "Next.js", "AngularJS", "jQuery", "HTML5", "CSS3", "JavaScript"],
+    "Backend":      ["PHP", "Laravel", "Node.js", "Express.js", "NestJS", "CodeIgniter"],
+    "Frontend":     ["React.js", "Next.js", "Vue.js", "AngularJS", "TailwindCSS", "jQuery", "HTML5", "CSS3", "JavaScript"],
     "API":          ["REST", "Webhooks", "OAuth", "JWT", "Swagger"],
     "Architecture": ["Microservices", "Scalable Systems", "Distributed Systems"],
-    "Databases":    ["PostgreSQL", "MySQL", "Data Modeling", "Indexing", "Query Optimization"],
+    "Databases":    ["PostgreSQL", "MySQL", "Data Modeling", "Indexing", "Query Optimization", "Supabase"],
     "Performance":  ["Redis", "API tuning", "Database tuning", "Caching"],
-    "DevOps":       ["AWS", "Docker", "Nginx", "CI/CD", "Git", "Linux"],
+    "DevOps":       ["AWS", "Docker", "Nginx", "CI/CD", "Git", "Linux", "GCP"],
     "Workflow":     ["Agile", "Scrum", "Postman", "Insomnia"],
+    "AI":           ["Claude Code", "n8n", "OpenClaw", "Codex"],
   },
   experience: [
     {
