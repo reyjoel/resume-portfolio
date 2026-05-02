@@ -20,7 +20,7 @@ export const DATA = {
     "Performance":  ["Redis", "API tuning", "Database tuning", "Caching"],
     "DevOps":       ["AWS", "Docker", "Nginx", "CI/CD", "Git", "Linux", "GCP"],
     "Workflow":     ["Agile", "Scrum", "Postman", "Insomnia"],
-    "AI":           ["Claude Code", "n8n", "OpenClaw", "Codex"],
+    "AI":           ["Claude Code", "n8n", "OpenClaw", "Codex", "Gemini"],
   },
   experience: [
     {
@@ -88,14 +88,17 @@ export const DATA = {
   ],
   projects_length: "10+",
   projects: [
+    { name: "HireLens AI",             url: "https://sigma-resume-analyzer.vercel.app/",  tag: "Resume Analyzer" },
+    { name: "PhotoUp",                 url: "https://www.photoup.net",                    tag: "Real Estate Tech" },
+    { name: "Telesource",              url: "https://telesource.com.ph/",                 tag: "VA Recruitment" },
+    { name: "Rubyrate",                url: "https://rubyrate.com/",                      tag: "Marketing Site" },
+    { name: "Hireplus UK",             url: "https://www.hireplus.co.uk",                 tag: "Recruitment" },
+    { name: "Agency Staff Solutions",  url: "https://dashboard.agencystaffsolutions.com", tag: "Dashboard" },
+    { name: "Expertel Solutions",      url: "https://expertelsolutions.com",              tag: "Agency" },
     { name: "Leadstown",               url: "https://leadstown.com",                      tag: "Lead Generation" },
     { name: "Involved Leads",          url: "https://involvedleads.com",                  tag: "Marketing Site" },
     { name: "Involved Leads — App",    url: "https://app.involvedleads.com",              tag: "Web App" },
-    { name: "Agency Staff Solutions",  url: "https://dashboard.agencystaffsolutions.com", tag: "Dashboard" },
-    { name: "Expertel Solutions",      url: "https://expertelsolutions.com",              tag: "Agency" },
-    { name: "PhotoUp",                 url: "https://www.photoup.net",                    tag: "Real Estate Tech" },
     { name: "Call Media Group",        url: "https://callmediagroup.com",                 tag: "Media" },
-    { name: "Hireplus UK",             url: "https://www.hireplus.co.uk",                 tag: "Recruitment" },
   ],
   certifications: [
     {
