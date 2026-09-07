@@ -8,6 +8,7 @@ export const DATA = {
   email: "reyjoelmatugas@gmail.com",
   github: "https://github.com/reyjoel",
   githubHandle: "reyjoel",
+  linkedin: "https://www.linkedin.com/in/rey-joel-matugas",
   yearsExp: 9,
   summary: "Senior Full Stack Engineer with 9+ years of experience designing, developing, and scaling high-performance web applications and APIs. Expert in PHP (Laravel), Node.js, and modern JavaScript frameworks including React.js and Next.js. Strong experience in system design, RESTful API architecture, microservices, database optimization, caching strategies, and scalable backend infrastructure.",
   longSummary: "Proven ability to improve application performance, optimize complex SQL queries, and build reliable systems that support high-traffic platforms. Experienced working in Agile teams and collaborating with product, design, and engineering leadership to deliver production-ready solutions.",

@@ -1,11 +1,11 @@
 export function DRow({ k, v, href }) {
   const inner = (
     <div className="grid grid-cols-3 py-3 group">
-      <dt className="text-white/55">{k}</dt>
-      <dd className="col-span-2 flex items-center justify-between gap-3">
-        <span className="text-white truncate">{v}</span>
+      <dt className="text-muted">{k}</dt>
+      <dd className="col-span-2 min-w-0 flex items-center justify-between gap-3">
+        <span className="text-ink break-words min-w-0">{v}</span>
         {href && (
-          <span className="text-white/40 group-hover:text-white group-hover:translate-x-0.5 transition">
+          <span className="text-muted group-hover:text-accent group-hover:translate-x-0.5 transition">
             ↗
           </span>
         )}

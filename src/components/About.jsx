@@ -5,14 +5,14 @@ import { InfoCard } from '../ui/InfoCard'
 export function About() {
   return (
     <section id="about" className="border-b border-border">
-      <div className="max-w-[1200px] mx-auto px-6 lg:px-10 py-20">
+      <div className="max-w-[1200px] mx-auto px-6 lg:px-10 py-20 lg:py-28">
         <SectionHeader
-          eyebrow="01 / About"
+          eyebrow="About"
           title="A pragmatic engineer focused on what ships."
           blurb="Nine years across agencies and product teams, mostly backend, comfortable end-to-end."
         />
-        <div className="grid grid-cols-12 gap-10">
-          <div className="col-span-12 md:col-span-7 space-y-5 text-ink2 text-[15px] leading-relaxed">
+        <div className="grid grid-cols-12 gap-x-2 gap-y-10 md:gap-10">
+          <div className="min-w-0 col-span-12 md:col-span-7 space-y-5 text-ink2 text-[16px] leading-relaxed">
             <p style={{ textWrap: 'pretty' }}>{DATA.longSummary}</p>
             <p style={{ textWrap: 'pretty' }}>
               I work day-to-day in PHP (Laravel), Node.js (Express, NestJS) and modern React/Next.js,
@@ -20,7 +20,7 @@ export function About() {
               parts of running services in production: logging, indexing, deployments.
             </p>
           </div>
-          <div className="col-span-12 md:col-span-5 grid grid-cols-2 gap-4">
+          <div className="min-w-0 col-span-12 md:col-span-5 grid grid-cols-2 gap-4">
             <InfoCard title="Education">
               {DATA.education.map((e, i) => (
                 <div key={i}>
