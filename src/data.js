@@ -90,6 +90,7 @@ export const DATA = {
   projects_length: "10+",
   projects: [
     { name: "HireLens AI",             url: "https://sigma-resume-analyzer.vercel.app/",  tag: "Resume Analyzer" },
+    { name: "Trilogy Aviation Group",  url: "https://trilogyaviationgroup.com/",          tag: "Aviation" },
     { name: "PhotoUp",                 url: "https://www.photoup.net",                    tag: "Real Estate Tech" },
     { name: "Telesource",              url: "https://telesource.com.ph/",                 tag: "VA Recruitment" },
     { name: "Rubyrate",                url: "https://rubyrate.com/",                      tag: "Marketing Site" },
