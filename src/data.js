@@ -94,7 +94,7 @@ export const DATA = {
     { name: "PhotoUp",                 url: "https://www.photoup.net",                    tag: "Real Estate Tech" },
     { name: "Telesource",              url: "https://telesource.com.ph/",                 tag: "VA Recruitment" },
     { name: "Rubyrate",                url: "https://rubyrate.com/",                      tag: "Marketing Site" },
-    { name: "Agency Staff Solutions",  url: "https://dashboard.agencystaffsolutions.com", tag: "Dashboard" },
+    { name: "Agency Staff Solutions",  url: "https://agencystaffsolutions.com",           tag: "Agency Dashboard" },
     { name: "Expertel Solutions",      url: "https://expertelsolutions.com",              tag: "Agency" },
     { name: "Hireplus UK",             url: "https://www.hireplus.co.uk",                 tag: "Marketing Site" },
     { name: "Leadstown",               url: "https://leadstown.com",                      tag: "Lead Generation" },
